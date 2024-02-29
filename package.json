@@ -1,0 +1,22 @@
+{
+  "name": "android-cleaner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "build": "ncc build src/index.js -m -o dist",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "micromatch": "^4.0.5"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.6.4",
+    "@vercel/ncc": "^0.38.1",
+    "eslint": "^8.56.0"
+  },
+  "author": "",
+  "license": "MIT"
+}

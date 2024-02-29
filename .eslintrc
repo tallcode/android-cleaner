@@ -1,0 +1,12 @@
+{
+  "extends": "eslint-config-egg",
+  "globals": {
+    "expect": true
+  },
+  "rules": {
+    "no-bitwise": "off",
+    "jsdoc/check-tag-names": "off",
+    "jsdoc/require-param-description": "off"
+  },
+  "parser": "babel-eslint"
+}
